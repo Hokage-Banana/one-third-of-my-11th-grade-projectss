@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <!-- <title> Responsive Drop Down Navigation Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Untitled</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <meta charset="UTF-8">
+     <title>Blue website with video background</title>
+     <style>
+       body {
+         margin: 0;
+         padding: 0;
+       }
+       
+       header {
+         background-color: #333;
+         color: #fff;
+         padding: 20px;
+         text-align: center;
+       }
+       
+       footer {
+         background-color: #333;
+         color: #fff;
+         text-align: center;
+         padding: 10px;
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+       }
+       
+       .video-container {
+         position: relative;
+         height: 900px;
+       }
+       
+       video {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+       }
+       
+       .overlay {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.6);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+       }
+       
+       .overlay-content {
+         text-align: center;
+       }
+       
+       .heading {
+         font-size: 4rem;
+         color: #fff;
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       }
+       
+       .btn {
+         background-color: #fff;
+         color: #333;
+         padding: 10px 20px;
+         border: none;
+         border-radius: 20px;
+         font-size: 1.5rem;
+         margin-top: 20px;
+         text-decoration: none;
+         transition: all 0.3s ease-in-out;
+         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+       }
+       
+       .btn:hover {
+         background-color: #333;
+         color: #fff;
+         cursor: pointer;
+         transform: scale(1.1);
+         box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+       }
+     </style>
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Mohamad Sawan</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">CodingLab</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">Projects</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="menu/sonuc.html">İşlemler</a></li>
+              <li><a href="menu/sasa.php">Otopark</a></li>
+              <li><a href="menu/chess.php">Chess</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Extra project</a></li>
+                  <li><a href="#">Extra project</a></li>
+                  <li><a href="#">Extra project</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Credits</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Owner</a></li>
+              <li><a href="#">Programmers</a></li>
+              <li><a href="#">Designers</a></li>
+              <li><a href="#">Mental supports</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+
+
+  <div class="video-container">
+    <video src="cat.mp4" autoplay muted loop></video>
+    <div class="overlay">
+      <div class="overlay-content">
+        <h2 class="heading">Mohamad Sawan</h2>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <footer id="footer">
+  <div class="container">
+    <h3>Mohamad Sawan</h3>
+    <p>"Aydınlık bir gelecek yeni nesille mümkündür. O nesli yetiştirmek ise fedakar öğretmenlerle olur."</p>
+    <div class="social-links">
+      <a href="https://twitter.com/frc6436" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="https://www.facebook.com/mohamad.sawan.1675" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.instagram.com/parsrobotics6436/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="https://tr.linkedin.com/company/pars-robotics-team" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>Mohamad Sawan</span></strong>
+    </div>
+    <div class="credits">
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+
+
+<!-- Credit to https://epicbootstrap.com/snippets/footer-with-columns -->
+  <!--<script src="script.js"></script>-->
+</body>
+</html>

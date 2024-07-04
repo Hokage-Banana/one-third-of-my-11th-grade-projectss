@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            padding:0%;
+        }
+        .kutu {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 15px;
+        }       
+        @media (min-width:1299px){
+            .kutu{
+                height: 400px;
+                width: 400px;
+                background-color: royalblue;
+                display: inline-block;/*görüntüleme şekli*/
+                
+                color: white;
+                border: 1px solid royalblue;
+            }
+            .bkutu {
+                width: 1200px;
+                height: 400px;
+                background-color: orange;
+                border-radius: 15px; /*köşelere yuvarlak*/
+                display: block;
+            }
+        }
+
+
+        @media (min-width:900px) and (max-width:1300px){
+            .kutu{
+                height: 400px;
+                width: 400px;
+                background-color: royalblue;
+                display: inline-block;
+                color: white;
+                border: 1px solid royalblue;
+
+            }
+
+
+            #kutu3{display: block;}
+            .bkutu{
+                display: none;
+            }
+        }
+        @media (min-width:745px) and (max-width:899px)
+        {
+            .kutu {
+                height: 350px;
+                width: 350px;
+                background-color: rgb(22, 22, 22);
+                color: rgb(238, 255, 0);
+                border: 2px solid rgb(220, 221, 58);
+                display: inline-block;
+            }
+            .bkutu {
+                display: inline;
+                background-color: black;
+  height: 350px;
+                width: 350px;
+            }
+        }
+        @media (min-width:620px) and (max-width:744px){
+            .kutu{
+                height: 300px;
+                width: 300px;
+                background-color: yellow;
+                display: inline-block;
+                color: black;
+                border: 2px solid rgb(222, 225, 65);
+            }
+            .bkutu{display: none;}
+        }
+        @media (max-width:620px){
+            .kutu {
+                height: 300px;
+                width: 300px;
+                background-color: rgb(135, 209, 239);
+                border: 2px solid rgb(135, 209, 239);
+                color: black;
+                display: inline-block;
+            }
+            .bkutu{display: none;}
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="kutu">
+            <h2>html</h2>
+            <p>
+                Kutu 1 
+            </p>
+        </div>
+         <div class="kutu">
+            <h2>html</h2>
+            <p>
+                Kutu 2
+            </p>
+        </div>
+         <div class="kutu" id="kutu3">
+            <h2>html</h2>
+            <p>
+                Kutu 3
+            </p>
+        </div>
+        <div class="bkutu">
+                <h2>html 2</h2>
+            <p>
+                kutu 4 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
